@@ -1,20 +1,33 @@
+body {
+    background: url(asphalt_texture3606.jpg) gray;
+}
+
 ul {
     margin: 50px;
     padding: 0;
     list-style: none;
 }
 
+ul {
+    font-size: 0;
+}
+
 li {
     width: 100px;
     height: 100px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    background: #02cfea;
-    border: 2px solid #cfea02;
+    border: 5px solid #FFFFFF;
     cursor: pointer;
     text-align: center;
     line-height: 100px;
     font-size: 40px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+}
+
+li:nth-child(3n-1) {
+    display: inline-block;
+}
+
+li:nth-child(3n) {
+    display: inline-block;
 }
