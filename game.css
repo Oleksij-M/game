@@ -6,10 +6,9 @@ ul {
     margin: 50px;
     padding: 0;
     list-style: none;
-}
-
-ul {
     font-size: 0;
+    position: absolute;
+    left: 35%;
 }
 
 li {
@@ -24,12 +23,17 @@ li {
     font-weight: bold;
     margin-bottom: -5px;
     margin-right: -5px;
+    background: white 0.5;
 }
 
 li:nth-child(3n-1) {
     display: inline-block;
+    position: relative;
+    right: 25%;
 }
 
 li:nth-child(3n) {
     display: inline-block;
+    position: relative;
+    right: 25%;
 }
