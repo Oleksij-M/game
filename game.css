@@ -1,5 +1,5 @@
 body {
-    background: url(asphalt_texture3606.jpg) gray;
+    background: url(asphalt_60x60.jpg) repeat;
 }
 
 ul {
@@ -36,4 +36,15 @@ li:nth-child(3n) {
     display: inline-block;
     position: relative;
     right: 25%;
+}
+
+li:first-child {
+    width: 204px;
+    border-radius: 120px 120px 0 0;
+    position: relative;
+    right: 52px;
+}
+
+li:hover {
+    background-color: rgba(255, 255, 255, 0.3)
 }
